@@ -97,7 +97,7 @@ asdlds = 0
 e = " Elliot: "
 
 
-os.system("cls")
+os.system("clear")
 
 while asdlds < 3:
 
@@ -106,21 +106,21 @@ while asdlds < 3:
     print(Fore.GREEN)
     print(load1)
     time.sleep(0.5)
-    os.system("cls")
+    os.system("clear")
 
     print(Fore.GREEN)
     print(anonim)
     print(Fore.GREEN)
     print(load2)
     time.sleep(0.5)
-    os.system("cls")
+    os.system("clear")
 
     print(Fore.RED)
     print(anonim)
     print(Fore.GREEN)
     print(load3)
     time.sleep(0.5)
-    os.system("cls")
+    os.system("clear")
 
     asdlds = asdlds + 1
 
@@ -144,16 +144,12 @@ while sadasdasd == 0:
     if otvet123123 == '1':
         sadasdasd = 1
     else:
-        os.system("cls")
+        os.system("clear")
         print(anonim)
         print('У вас новое сообщение!')
-
-
-
-
  
 print('\n'+ Fore.BLACK + Back.GREEN + dial)
-
+print(Fore.GREEN + Back.BLACK)
 print('\n'+ Fore.GREEN + Back.BLACK + a)
 txt = 'Эй ты тут?\n'
 for i in txt:  # этот цикл будет брать по 1 буковке из тхт
@@ -188,7 +184,7 @@ neotvet = input('\n'+'Чтобы выйти введите "exit": ')
 qweqwewe123 = 0
 while qweqwewe123 == 0:
     if neotvet == 'exit':
-        os.system("cls")
+        os.system("clear")
         print(menu)
         qweqwewe123 = 1
     else:
