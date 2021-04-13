@@ -2,7 +2,6 @@ import time
 import math
 import colorama
 from colorama import Fore, Back, Style, init
-from PIL import Image
 import os
 colorama.init()
 
