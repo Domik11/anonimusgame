@@ -211,10 +211,9 @@ while dasddsada123 == 0:
 
 
 asdadqw1 = 0
-
+sdad = input(virus)
 while asdadqw1 == 0:
     virus = "console: "
-    sdad = input(virus)
 
     if sdad == 'cd files':
         txt = '(для списка файлов напишите "ls")\n'
