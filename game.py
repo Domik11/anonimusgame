@@ -41,7 +41,7 @@ MMMMMMMMMMMMMMMNOxxxxxKMMMMMMMMMMMMMMMMM
 
 
 
-menu = """
+menub = """
 ███╗░░░███╗███████╗███╗░░██╗██╗░░░██╗
 ████╗░████║██╔════╝████╗░██║██║░░░██║
 ██╔████╔██║█████╗░░██╔██╗██║██║░░░██║
@@ -251,13 +251,13 @@ qweqwewe123 = 0
 while qweqwewe123 == 0:
     if neotvet == 'exit':
         os.system("clear")
-        print(menu)
+        print(menub)
         qweqwewe123 = 1
     else:
         neotvet = input('terminal: ')
 t = 'terminal: '
 
-ter12 = input('terminal: ')
+ter12 = input('\nterminal: ')
 
 dasddsada123 = 0
 while dasddsada123 == 0:
