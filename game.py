@@ -2,7 +2,6 @@ import time
 import math
 import colorama
 from colorama import Fore, Back, Style, init
-from PIL import Image
 import os
 colorama.init()
 
@@ -36,7 +35,6 @@ MMMMMMMMWOlcxKNXO, .,lKNX0ocdKWMMMMMMMMM
 MMMMMMMMMMNkolldk: .;dkolldKWMMMMMMMMMMM
 MMMMMMMMMMMMWOol:'...,lodKMMMMMMMMMMMMMM
 MMMMMMMMMMMMMMMNOxxxxxKMMMMMMMMMMMMMMMMM 
-
 """
 
 
@@ -50,10 +48,21 @@ menu = """
 ██║╚██╔╝██║██╔══╝░░██║╚████║██║░░░██║
 ██║░╚═╝░██║███████╗██║░╚███║╚██████╔╝
 ╚═╝░░░░░╚═╝╚══════╝╚═╝░░╚══╝░╚═════╝░
-
 1.Консоль
 2.Настройки
 3.Сообщения
+"""
+
+
+
+errorb = """
+####### ######  ######  ####### ######  
+#       #     # #     # #     # #     # 
+#       #     # #     # #     # #     # 
+#####   ######  ######  #     # ######  
+#       #   #   #   #   #     # #   #   
+#       #    #  #    #  #     # #    #  
+####### #     # #     # ####### #     #      
 """
 
 
@@ -62,11 +71,11 @@ menu = """
 
 
 
-
-
-
-
-
+def txt(x):
+    txt = x
+    for i in txt:  # этот цикл будет брать по 1 буковке из тхт
+        time.sleep(0.05)
+        print(i, end='', flush=True)
 
 
 
@@ -97,7 +106,7 @@ asdlds = 0
 e = " Elliot: "
 
 
-os.system("cls")
+os.system("clear")
 
 while asdlds < 3:
 
@@ -106,21 +115,21 @@ while asdlds < 3:
     print(Fore.GREEN)
     print(load1)
     time.sleep(0.5)
-    os.system("cls")
+    os.system("clear")
 
     print(Fore.GREEN)
     print(anonim)
     print(Fore.GREEN)
     print(load2)
     time.sleep(0.5)
-    os.system("cls")
+    os.system("clear")
 
     print(Fore.RED)
     print(anonim)
     print(Fore.GREEN)
     print(load3)
     time.sleep(0.5)
-    os.system("cls")
+    os.system("clear")
 
     asdlds = asdlds + 1
 
@@ -144,16 +153,12 @@ while sadasdasd == 0:
     if otvet123123 == '1':
         sadasdasd = 1
     else:
-        os.system("cls")
+        os.system("clear")
         print(anonim)
         print('У вас новое сообщение!')
-
-
-
-
  
 print('\n'+ Fore.BLACK + Back.GREEN + dial)
-
+print(Fore.GREEN + Back.BLACK)
 print('\n'+ Fore.GREEN + Back.BLACK + a)
 txt = 'Эй ты тут?\n'
 for i in txt:  # этот цикл будет брать по 1 буковке из тхт
@@ -178,7 +183,7 @@ for i in txt:  # этот цикл будет брать по 1 буковке �
 otvetoqweow = input('\n' + e)
 
 print('\n'+ a)
-txt = 'Так сейчас заходи в консоль командой "cons"\n'
+txt = 'Так сейчас заходи в консоль\n'
 for i in txt:  # этот цикл будет брать по 1 буковке из тхт
     time.sleep(0.05)
     print(i, end='', flush=True)
@@ -188,7 +193,7 @@ neotvet = input('\n'+'Чтобы выйти введите "exit": ')
 qweqwewe123 = 0
 while qweqwewe123 == 0:
     if neotvet == 'exit':
-        os.system("cls")
+        os.system("clear")
         print(menu)
         qweqwewe123 = 1
     else:
@@ -204,7 +209,7 @@ while dasddsada123 == 0:
         for i in txt:  # этот цикл будет брать по 1 буковке из тхт
             time.sleep(0.05)
             print(i, end='', flush=True)
-        txt = '(для перехода в папку напишите "cd название папки")\n'
+        txt = '\n(для перехода в папку напишите "cd название папки")\n'
         for i in txt:  # этот цикл будет брать по 1 буковке из тхт
             time.sleep(0.05)
             print(i, end='', flush=True)
@@ -214,15 +219,15 @@ while dasddsada123 == 0:
         ter12 = input('terminal: ')
 
 
-
+virus = "console: "
 asdadqw1 = 0
+sdad = input(virus)
 
 while asdadqw1 == 0:
-    virus = "console: "
-    sdad = input(virus)
+    
 
     if sdad == 'cd files':
-        txt = '(для списка файлов напишите "ls")\n'
+        txt = '\n(для списка файлов напишите "ls")\n'
         for i in txt:  # этот цикл будет брать по 1 буковке из тхт
             time.sleep(0.05)
             print(i, end='', flush=True)
@@ -231,7 +236,7 @@ while asdadqw1 == 0:
     else:
         sdad = input(virus)
 
-cvirus = "console/files: "
+cvirus = "\nconsole/files: "
 
 asdqwe1 = input(cvirus)
 asda = 0
@@ -252,12 +257,96 @@ while asda == 0:
         asda = 1   
     else:
         asdqwe1 = input(cvirus)
+        
+asda = 0        
+
+
+
+
+while asda == 0:
+	
+	
+	
+	
+    txt = "\n(Для удаления файла напишите del имя файла.расширение!)"
+    for i in txt:  # этот цикл будет брать по 1 буковке из тхт
+                time.sleep(0.05)
+                print(i, end='', flush=True)
+    
+    asdqwe1 = input(cvirus)
+    
+    
+    
+    
+    if asdqwe1 == "del virus.exe":
+        
+        
+        txt = "Файл успешно удалён!"
+        
+        for i in txt:  # этот цикл будет брать по 1 буковке из тхт
+            time.sleep(0.05)
+            print(i, end='', flush=True)
+        time.sleep(1)
+        os.system("clear")
+        
+        print(cvirus)
+        
+        print("""
+        data
+        q123shadhiuq.txt
+        1asdfijafiohij.txt
+        jksdijasd.fdf
+        asdlasdlw.png
+        """)
+        asda = 1  
+	
+        
+        
+        
+        
+        
+      
+      
+      
+    else:
+        
+        asdlds = 0
+        os.system("clear")
+        
+        while asdlds < 3:
+
+            print(Fore.RED)
+            print(errorb)
+            print(Fore.GREEN)
+            print(load1)
+            time.sleep(0.5)
+            os.system("clear")
             
-
-
+            print(Fore.GREEN)
+            print(errorb)
+            print(Fore.GREEN)
+            print(load2)
+            time.sleep(0.5)
+            os.system("clear")
             
-
-
-
-
-
+            print(Fore.RED)
+            print(errorb)
+            print(Fore.GREEN)
+            print(load3)
+            time.sleep(0.5)
+            os.system("clear")
+            
+            asdlds = asdlds + 1
+            
+        
+        os.system("clear")  
+        print("""
+        virus.exe
+        data
+        q123shadhiuq.txt
+        1asdfijafiohij.txt
+        jksdijasd.fdf
+        asdlasdlw.png
+        """)
+        
+        
