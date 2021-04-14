@@ -337,7 +337,7 @@ while asda == 0:
     
     if asdqwe1 == "del virus.exe":
         
-        
+        os.system('clear')
         txt = "Файл успешно удалён!"
         
         for i in txt:  # этот цикл будет брать по 1 буковке из тхт
@@ -412,7 +412,120 @@ qweqwewe123 = 0
 while qweqwewe123 == 0:
     if neotvet == 'exit':
         os.system("clear")
-        print(menu)
+        print(menub)
         qweqwewe123 = 1
+
+
+    if neotvet == "ls":
+        print("""
+        data
+        q123shadhiuq.txt
+        1asdfijafiohij.txt
+        jksdijasd.fdf
+        asdlasdlw.png
+        """)
     else:
         neotvet = input("\nconsole/files: " )
+
+txt = '\nУ вас 1 новое сообщение!\n'
+        for i in txt:  # этот цикл будет брать по 1 буковке из тхт
+            time.sleep(0.05)
+            print(i, end='', flush=True)
+
+
+
+asdadqw1 = 0
+print(anonim)
+
+
+sdad = input(t)
+
+while asdadqw1 == 0:
+    
+
+    if sdad == '2':
+        print("Анонимус: ")
+        txt = 'Что это было?\n'
+        for i in txt:  # этот цикл будет брать по 1 буковке из тхт
+            time.sleep(0.05)
+            print(i, end='', flush=True)
+
+        txt = 'Чёрт, ты же работаешь на BluBerryCompany?\n'
+        for i in txt:  # этот цикл будет брать по 1 буковке из тхт
+            time.sleep(0.05)
+            print(i, end='', flush=True)
+
+        txt = 'Это CorpEvil закинули тебе троян!\n'
+        for i in txt:  # этот цикл будет брать по 1 буковке из тхт
+            time.sleep(0.05)
+            print(i, end='', flush=True)
+
+        txt = 'Их хакеры некудышные\n'
+        for i in txt:  # этот цикл будет брать по 1 буковке из тхт
+            time.sleep(0.05)
+            print(i, end='', flush=True)
+
+        txt = 'Они хотели украсть твои данные!'
+        for i in txt:  # этот цикл будет брать по 1 буковке из тхт
+            time.sleep(0.05)
+            print(i, end='', flush=True)
+
+        txt = 'Напиши об этом боссу!'
+        for i in txt:  # этот цикл будет брать по 1 буковке из тхт
+            time.sleep(0.05)
+            print(i, end='', flush=True)
+    
+        asdadqw1 = 1
+    else:
+        sdad = input(t)
+
+
+dasddsada123 = 0
+ter12 = input(t)
+
+while dasddsada123 == 0:
+    if ter12 == 'exit':
+        os.system("clear")
+        print('\n'+ Fore.BLACK + Back.GREEN + dial)
+        print(Fore.GREEN + Back.BLACK)
+        print("""
+        1. anomimus
+        2. boss
+        """)
+        
+        dasddsada123 = 1
+    else:
+        ter12 = input('terminal: ')
+
+ter12 = input(t)
+
+dasddsada123 = 0
+while dasddsada123 == 0:
+    if ter12 == '2':
+        os.system("clear")
+
+        
+        print('\n'+ Fore.BLACK + Back.GREEN + dial)
+        print(Fore.GREEN + Back.BLACK)
+
+        print("Boss: ")
+        txt = 'ЧТО СЛУЧИЛОСЬ?!\n'
+        for i in txt:  # этот цикл будет брать по 1 буковке из тхт
+            time.sleep(0.05)
+            print(i, end='', flush=True)
+        
+        txt = t +'Компания CorpEvil меня взломала!\n'
+        for i in txt:  # этот цикл будет брать по 1 буковке из тхт
+            time.sleep(0.05)
+            print(i, end='', flush=True)
+            
+        print("Boss: ")
+        txt = 'Ну так чего ждать, наноси ответный удар!\n'
+        for i in txt:  # этот цикл будет брать по 1 буковке из тхт
+            time.sleep(0.05)
+            print(i, end='', flush=True)
+
+
+        dasddsada123 = 1
+    else:
+        ter12 = input('terminal: ')
