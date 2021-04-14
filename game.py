@@ -49,8 +49,8 @@ menu = """
 ██║░╚═╝░██║███████╗██║░╚███║╚██████╔╝
 ╚═╝░░░░░╚═╝╚══════╝╚═╝░░╚══╝░╚═════╝░
 1.Консоль
-2.Настройки
-3.Сообщения
+2.Сообщения
+3.Настройки
 """
 
 
@@ -71,6 +71,63 @@ errorb = """
 
 
 
+
+
+
+
+load1 = 'Loading .'
+load2 = 'Loading ..'
+load3 = 'Loading ...'
+
+
+
+asdd123wd = 0
+def loading():
+    while asdd123wd < 2:
+        os.system(clear)
+        print(load1)
+        time.sleep(0.5)
+        os.system(clear)
+        print(load1)
+        time.sleep(0.5)
+        os.system(clear)
+        print(load1)
+        asdd123wd = asdd123wd + 1 
+
+virus = "console: "
+
+
+
+
+
+
+
+
+
+
+
+
+
+def menu():
+    print(menu)
+    ter12 = input('terminal: ')
+    dasddsa23 = 0
+    while dasddsa23 == 0:
+        if ter12 == '1':
+            dasddsada123 = 1
+            console()
+
+        elif ter12 == '2':
+
+            
+
+
+
+            dasddsada123 = 1
+        else:
+            ter12 = input('terminal: ')
+
+
 def txt(x):
     txt = x
     for i in txt:  # этот цикл будет брать по 1 буковке из тхт
@@ -85,24 +142,24 @@ def txt(x):
 
 
 
-load1 = 'Loading .'
-load2 = 'Loading ..'
-load3 = 'Loading ...'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 asdlds = 0
-
-
-
-
-
-
-
-
-
-
-
-
-
 e = " Elliot: "
 
 
@@ -219,7 +276,7 @@ while dasddsada123 == 0:
         ter12 = input('terminal: ')
 
 
-virus = "console: "
+
 asdadqw1 = 0
 sdad = input(virus)
 
@@ -348,3 +405,14 @@ while asda == 0:
         jksdijasd.fdf
         asdlasdlw.png
         """)
+
+
+neotvet = input('\n'+'Чтобы выйти введите "exit": ')
+qweqwewe123 = 0
+while qweqwewe123 == 0:
+    if neotvet == 'exit':
+        os.system("clear")
+        print(menu)
+        qweqwewe123 = 1
+    else:
+        neotvet = input("\nconsole/files: " )
