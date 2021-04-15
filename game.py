@@ -399,7 +399,6 @@ while asda == 0:
         
         os.system("clear")  
         print("""
-        virus.exe
         data
         q123shadhiuq.txt
         1asdfijafiohij.txt
@@ -413,17 +412,7 @@ qweqwewe123 = 0
 while qweqwewe123 == 0:
     if neotvet == 'exit':
         os.system("clear")
-        print(menub)
-        
-        txt = '\nУ вас 1 новое сообщение!\n'    
-        for i in txt:  # этот цикл будет брать по 1 буковке из тхт
-            time.sleep(0.05)
-            print(i, end='', flush=True)
-
         qweqwewe123 = 1
-
-
-
     if neotvet == "ls":
         print("""
         data
@@ -436,9 +425,17 @@ while qweqwewe123 == 0:
         neotvet = input("\nconsole/files: " )
 
 
+print(menub)
+        
+txt = '\nУ вас 1 новое сообщение!\n'    
+for i in txt:  # этот цикл будет брать по 1 буковке из тхт
+    time.sleep(0.05)
+    print(i, end='', flush=True)
+
+
+
 
 asdadqw1 = 0
-print(anonim)
 
 
 sdad = input(t)
