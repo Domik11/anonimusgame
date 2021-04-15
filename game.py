@@ -619,9 +619,9 @@ while dasddsada123 == 0:
 print(menub)
 
 txt = e + 'Для начала надо закинуть вирус работникам EvilCorp'
-    for i in txt:  # этот цикл будет брать по 1 буковке из тхт
-        time.sleep(0.05)
-        print(i, end='', flush=True)
+for i in txt:  # этот цикл будет брать по 1 буковке из тхт
+    time.sleep(0.05)
+    print(i, end='', flush=True)
 
 asdadqw1 = input('terminal: ')
 asdadqw1 = 0
@@ -655,7 +655,7 @@ while asdadqw1 == 0:
 
 
 
-print(console: )
+print('console: ')
 
 asdadqw1 = 0
 while asdadqw1 == 0:
