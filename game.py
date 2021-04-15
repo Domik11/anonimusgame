@@ -512,7 +512,7 @@ while dasddsada123 == 0:
         
         print('\n'+ Fore.BLACK + Back.GREEN + dial)
         print(Fore.GREEN + Back.BLACK)
-
+        
         
         txt = 'Boss: ЧТО СЛУЧИЛОСЬ?!\n'
         for i in txt:  # этот цикл будет брать по 1 буковке из тхт
