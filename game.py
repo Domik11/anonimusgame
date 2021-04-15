@@ -147,7 +147,31 @@ def txt(x):
 
 
 
+def errorfunc ():
+    while asdlds < 3:
 
+            print(Fore.RED)
+            print(errorb)
+            print(Fore.GREEN)
+            print(load1)
+            time.sleep(0.5)
+            os.system("clear")
+            
+            print(Fore.GREEN)
+            print(errorb)
+            print(Fore.GREEN)
+            print(load2)
+            time.sleep(0.5)
+            os.system("clear")
+            
+            print(Fore.RED)
+            print(errorb)
+            print(Fore.GREEN)
+            print(load3)
+            time.sleep(0.5)
+            os.system("clear")
+            
+            asdlds = asdlds + 1
 
 
 
@@ -442,6 +466,9 @@ asdadqw1 = 0
 sdad = input(t)
 
 while asdadqw1 == 0:
+
+    if sdad == '1':
+        errorfunc ()
     
 
     if sdad == '2':
@@ -477,6 +504,9 @@ while asdadqw1 == 0:
         for i in txt:  # этот цикл будет брать по 1 буковке из тхт
             time.sleep(0.05)
             print(i, end='', flush=True)
+
+    if sdad == '3':
+        errorfunc ()
     
         asdadqw1 = 1
     else:
@@ -484,7 +514,7 @@ while asdadqw1 == 0:
 
 
 dasddsada123 = 0
-ter12 = input(t)
+ter12 = input('\n'+'Чтобы выйти введите "exit": ')
 
 while dasddsada123 == 0:
     if ter12 == 'exit':
@@ -527,7 +557,29 @@ while dasddsada123 == 0:
             time.sleep(0.05)
             print(i, end='', flush=True)
 
+        txt = 'Boss: Чёртовы хакеры...\n'
+        for i in txt:  # этот цикл будет брать по 1 буковке из тхт
+            time.sleep(0.05)
+            print(i, end='', flush=True)
 
+
+        dasddsada123 = 1
+    else:
+        ter12 = input('terminal: ')
+
+
+ter12 = input('\n'+'Чтобы выйти введите "exit": ')
+
+while dasddsada123 == 0:
+    if ter12 == 'exit':
+        os.system("clear")
+        print('\n'+ Fore.BLACK + Back.GREEN + dial)
+        print(Fore.GREEN + Back.BLACK)
+        print("""
+        1. anomimus
+        2. boss
+        """)
+        
         dasddsada123 = 1
     else:
         ter12 = input('terminal: ')
