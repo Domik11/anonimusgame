@@ -470,12 +470,12 @@ while asdadqw1 == 0:
             time.sleep(0.05)
             print(i, end='', flush=True)
 
-        txt = 'Анонимус: Они хотели украсть твои данные!'
+        txt = 'Анонимус: Они хотели украсть твои данные!\n'
         for i in txt:  # этот цикл будет брать по 1 буковке из тхт
             time.sleep(0.05)
             print(i, end='', flush=True)
 
-        txt = 'Анонимус: Напиши об этом боссу!'
+        txt = 'Анонимус: Напиши об этом боссу!\n'
         for i in txt:  # этот цикл будет брать по 1 буковке из тхт
             time.sleep(0.05)
             print(i, end='', flush=True)
@@ -513,8 +513,8 @@ while dasddsada123 == 0:
         print('\n'+ Fore.BLACK + Back.GREEN + dial)
         print(Fore.GREEN + Back.BLACK)
 
-        print("Boss: ")
-        txt = 'ЧТО СЛУЧИЛОСЬ?!\n'
+        
+        txt = 'Boss: ЧТО СЛУЧИЛОСЬ?!\n'
         for i in txt:  # этот цикл будет брать по 1 буковке из тхт
             time.sleep(0.05)
             print(i, end='', flush=True)
@@ -524,8 +524,7 @@ while dasddsada123 == 0:
             time.sleep(0.05)
             print(i, end='', flush=True)
             
-        print("Boss: ")
-        txt = 'Ну так чего ждать, наноси ответный удар!\n'
+        txt = 'Boss: Ну так чего ждать, наноси ответный удар!\n'
         for i in txt:  # этот цикл будет брать по 1 буковке из тхт
             time.sleep(0.05)
             print(i, end='', flush=True)
