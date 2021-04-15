@@ -48,6 +48,7 @@ menub = """
 ██║╚██╔╝██║██╔══╝░░██║╚████║██║░░░██║
 ██║░╚═╝░██║███████╗██║░╚███║╚██████╔╝
 ╚═╝░░░░░╚═╝╚══════╝╚═╝░░╚══╝░╚═════╝░
+
 1.Консоль
 2.Сообщения
 3.Настройки
@@ -413,7 +414,14 @@ while qweqwewe123 == 0:
     if neotvet == 'exit':
         os.system("clear")
         print(menub)
+        
+        txt = '\nУ вас 1 новое сообщение!\n'    
+        for i in txt:  # этот цикл будет брать по 1 буковке из тхт
+            time.sleep(0.05)
+            print(i, end='', flush=True)
+
         qweqwewe123 = 1
+
 
 
     if neotvet == "ls":
@@ -427,11 +435,6 @@ while qweqwewe123 == 0:
     else:
         neotvet = input("\nconsole/files: " )
 
-txt = '\nУ вас 1 новое сообщение!\n'    
-for i in txt:  # этот цикл будет брать по 1 буковке из тхт
-    time.sleep(0.05)
-    print(i, end='', flush=True)
-
 
 
 asdadqw1 = 0
@@ -444,33 +447,35 @@ while asdadqw1 == 0:
     
 
     if sdad == '2':
-        print("Анонимус: ")
-        txt = 'Что это было?\n'
+        os.system("clear")
+        
+        print(anonim)
+        txt = '\nsАнонимус: Что это было?\n'
         for i in txt:  # этот цикл будет брать по 1 буковке из тхт
             time.sleep(0.05)
             print(i, end='', flush=True)
 
-        txt = 'Чёрт, ты же работаешь на BluBerryCompany?\n'
+        txt = 'Анонимус: Чёрт, ты же работаешь на BluBerryCompany?\n'
         for i in txt:  # этот цикл будет брать по 1 буковке из тхт
             time.sleep(0.05)
             print(i, end='', flush=True)
 
-        txt = 'Это CorpEvil закинули тебе троян!\n'
+        txt = 'Анонимус: Это CorpEvil закинули тебе троян!\n'
         for i in txt:  # этот цикл будет брать по 1 буковке из тхт
             time.sleep(0.05)
             print(i, end='', flush=True)
 
-        txt = 'Их хакеры некудышные\n'
+        txt = 'Анонимус: Их хакеры некудышные\n'
         for i in txt:  # этот цикл будет брать по 1 буковке из тхт
             time.sleep(0.05)
             print(i, end='', flush=True)
 
-        txt = 'Они хотели украсть твои данные!'
+        txt = 'Анонимус: Они хотели украсть твои данные!'
         for i in txt:  # этот цикл будет брать по 1 буковке из тхт
             time.sleep(0.05)
             print(i, end='', flush=True)
 
-        txt = 'Напиши об этом боссу!'
+        txt = 'Анонимус: Напиши об этом боссу!'
         for i in txt:  # этот цикл будет брать по 1 буковке из тхт
             time.sleep(0.05)
             print(i, end='', flush=True)
