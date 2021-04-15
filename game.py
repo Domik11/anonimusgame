@@ -427,10 +427,10 @@ while qweqwewe123 == 0:
     else:
         neotvet = input("\nconsole/files: " )
 
-txt = '\nУ вас 1 новое сообщение!\n'
-        for i in txt:  # этот цикл будет брать по 1 буковке из тхт
-            time.sleep(0.05)
-            print(i, end='', flush=True)
+txt = '\nУ вас 1 новое сообщение!\n'    
+    for i in txt:  # этот цикл будет брать по 1 буковке из тхт
+        time.sleep(0.05)
+        print(i, end='', flush=True)
 
 
 
