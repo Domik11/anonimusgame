@@ -399,6 +399,7 @@ while asda == 0:
         
         os.system("clear")  
         print("""
+        virus.exe
         data
         q123shadhiuq.txt
         1asdfijafiohij.txt
@@ -447,7 +448,7 @@ while asdadqw1 == 0:
         os.system("clear")
         
         print(anonim)
-        txt = '\nsАнонимус: Что это было?\n'
+        txt = '\nАнонимус: Что это было?\n'
         for i in txt:  # этот цикл будет брать по 1 буковке из тхт
             time.sleep(0.05)
             print(i, end='', flush=True)
