@@ -109,6 +109,7 @@ virus = "console: "
 
 
 
+
 def menu():
     print(menu)
     ter12 = input('terminal: ')
@@ -121,7 +122,6 @@ def menu():
         elif ter12 == '2':
 
             
-
 
 
             dasddsada123 = 1
@@ -148,6 +148,8 @@ def txt(x):
 
 
 def errorfunc ():
+    asdlds = 0
+    
     while asdlds < 3:
 
             print(Fore.RED)
@@ -438,7 +440,7 @@ while qweqwewe123 == 0:
     if neotvet == 'exit':
         os.system("clear")
         qweqwewe123 = 1
-    if neotvet == "ls":
+    elif neotvet == "ls":
         print("""
         data
         q123shadhiuq.txt
@@ -463,14 +465,13 @@ for i in txt:  # этот цикл будет брать по 1 буковке �
 asdadqw1 = 0
 
 
-sdad = input(t)
+
 
 while asdadqw1 == 0:
-
-    if sdad == '1':
-        errorfunc ()
+    asdadqw1 = 0
+    print(Fore.GREEN)
     
-
+    
     if sdad == '2':
         os.system("clear")
         
@@ -480,7 +481,7 @@ while asdadqw1 == 0:
             time.sleep(0.05)
             print(i, end='', flush=True)
 
-        txt = 'Анонимус: Чёрт, ты же работаешь на BluBerryCompany?\n'
+        txt = 'Анонимус: Чёрт, ты же работаешь на BlueBerryCompany?\n'
         for i in txt:  # этот цикл будет брать по 1 буковке из тхт
             time.sleep(0.05)
             print(i, end='', flush=True)
@@ -505,10 +506,20 @@ while asdadqw1 == 0:
             time.sleep(0.05)
             print(i, end='', flush=True)
 
-    if sdad == '3':
-        errorfunc ()
-    
+
         asdadqw1 = 1
+
+
+
+    elif sdad == '1':
+        os.system("clear")
+        errorfunc ()
+        print(menub)
+
+    elif sdad == '3':
+        os.system("clear")
+        errorfunc ()
+        print(menub)
     else:
         sdad = input(t)
 
@@ -569,17 +580,104 @@ while dasddsada123 == 0:
 
 
 ter12 = input('\n'+'Чтобы выйти введите "exit": ')
-
+dasddsada123 = 0
 while dasddsada123 == 0:
     if ter12 == 'exit':
-        os.system("clear")
-        print('\n'+ Fore.BLACK + Back.GREEN + dial)
-        print(Fore.GREEN + Back.BLACK)
-        print("""
-        1. anomimus
-        2. boss
-        """)
-        
         dasddsada123 = 1
     else:
         ter12 = input('terminal: ')
+
+dasddsada123 = 0
+ter12 = '123'
+
+
+while dasddsada123 == 0:
+
+    print('\n'+ Fore.BLACK + Back.GREEN + dial)
+    print(Fore.GREEN + Back.BLACK)
+    print("""
+    1. anomimus
+    2. boss
+    """)
+
+    if ter12 == '1':
+        os.system("clear")
+        print('Нет новых сообщений!')
+        time.sleep(1)
+
+    if ter12 == '2':
+        os.system("clear")
+        print('Нет новых сообщений!')
+        time.sleep(1)
+
+    elif ter12 == 'exit':
+        os.system('clear')
+        dasddsada123 = 1
+    else:
+        ter12 = input('terminal: ')
+
+print(menub)
+
+txt = e + 'Для начала надо закинуть вирус работникам EvilCorp'
+        for i in txt:  # этот цикл будет брать по 1 буковке из тхт
+            time.sleep(0.05)
+            print(i, end='', flush=True)
+
+asdadqw1 = input('terminal: ')
+asdadqw1 = 0
+
+
+while asdadqw1 == 0:
+    asdadqw1 = 0
+    print(Fore.GREEN)
+    
+    
+    if sdad == '1':
+        os.system("clear")
+        errorfunc ()
+        print(menub)
+        
+
+
+
+    elif sdad == '2':
+        os.system("clear")
+        asdadqw1 = 1
+
+
+
+    elif sdad == '3':
+        os.system("clear")
+        errorfunc ()
+        print(menub)
+    else:
+        sdad = input(t)
+
+
+
+print(console: )
+
+asdadqw1 = 0
+while asdadqw1 == 0:
+    asdadqw1 = 0
+    print(Fore.GREEN)
+    
+    
+    if sdad == '1':
+        os.system("clear")
+        asdadqw1 = 1
+
+
+
+    elif sdad == '2':
+        os.system("clear")
+        errorfunc ()
+        print(menub)
+
+    elif sdad == '3':
+        os.system("clear")
+        errorfunc ()
+        print(menub)
+    else:
+        sdad = input(t)
+
