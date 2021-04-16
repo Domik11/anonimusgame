@@ -634,6 +634,7 @@ while asdadqw1 == 0:
     
     if sdad == '1':
         os.system("clear")
+        asdadqw1 = 0
         errorfunc ()
         print(menub)
         
@@ -647,6 +648,7 @@ while asdadqw1 == 0:
 
 
     elif sdad == '3':
+        asdadqw1 = 0
         os.system("clear")
         errorfunc ()
         print(menub)
