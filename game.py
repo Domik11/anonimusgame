@@ -284,7 +284,7 @@ while qweqwewe123 == 0:
         neotvet = input('terminal: ')
 t = 'terminal: '
 
-ter12 = input('\nterminal: ')
+ter12 = 0
 
 dasddsada123 = 0
 while dasddsada123 == 0:
