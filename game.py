@@ -300,7 +300,7 @@ while dasddsada123 == 0:
         
         dasddsada123 = 1
     else:
-        ter12 = input('terminal: ')
+        ter12 = input('\nterminal: ')
 
 
 
