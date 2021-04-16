@@ -515,11 +515,13 @@ while asdadqw1 == 0:
         os.system("clear")
         errorfunc ()
         print(menub)
+        sdad = 0
 
     elif sdad == '3':
         os.system("clear")
         errorfunc ()
         print(menub)
+        sdad = 0
     else:
         sdad = input(t)
 
